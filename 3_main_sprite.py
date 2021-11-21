@@ -12,10 +12,10 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Game Create") # 게임 이름
 
 # 배경 이미지 불러오기
-background = pygame.image.load("D:/HanEunji/Documents/project/PythonWorkspace/20211121 shootinggame/background.png")
+background = pygame.image.load("C:/Workspace/Python-play-2021.11-/background.png")
 
 # 스프라이트(캐릭터) 불러오기
-character = pygame.image.load("D:/HanEunji/Documents/project/PythonWorkspace/20211121 shootinggame/charactor.png")
+character = pygame.image.load("C:/Workspace/Python-play-2021.11-/charactor.png")
 character_size = character.get_rect().size # 이미지 크기를 구함
 character_width = character_size[0]
 character_height = character_size[1]
